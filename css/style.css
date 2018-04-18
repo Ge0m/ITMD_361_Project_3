@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c9c9c9;
+}
+
+.nav {
+  width: 100%;
+  background-color: #333;
+  text-align: center;
+  /* Need to find a way to stop overlapping from occurring with header first
+  top: 0%;
+  position: fixed;
+  */
+}
+
+.nav ul {  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: inline-block;
+}
+
+.nav li {
+  float: left;
+  font-size: 1.4em;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #ff4242;
+}
+
+.nav a:active {
+  background-color: #d62626;
+  color: #333;
+}
+
+header {
+  text-align:center;
+  font-family: "Verdana", sans-serif;
+}
+
+main {
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+}
+
+.about {
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+  margin: 2%;
+}
+
+.flag {
+  border: 1px black solid;
+  padding: 0%;
+  height: 250px;
+  width: 400px;
+  position: static;
+}
+
+.info {
+  margin: 6%;
+  border: 3px solid black;
+  padding: 1%;
+  position: static;
+}
+
+footer {
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+  background-color: #333;
+  color: #fff;
+  bottom: 0;
+  padding: 2%;
+  position: static;
+}
+
+.education {
+  border: 3px solid black;
+  margin: 50px;
+  padding: 20px;
+  background-color: rgba(154, 190, 252, 0.3);
+  width: 600px;
+  float: left;
+}
+
+.work {
+  border: 3px solid black;
+  margin: 50px;
+  padding: 20px;
+  background-color: rgba(154, 190, 252, 0.3);
+  width: 600px;
+  float: left;
+}
+
+.skills {
+  border: 3px solid black;
+  margin: 50px;
+  padding: 20px;
+  background-color: rgba(154, 190, 252, 0.3);
+  width: 600px;
+  float: left;
+}
+
+.lists {
+  list-style-type: none;
+  padding: 0px;
+  margin: 10px;
+}
+.gamelist{
+  width: 100%;
+  text-align: center;
+  position: static;
+}
+
+.gamelist ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.gamelist li a {
+  display: block;
+  text-align: center;
+  padding: .5em;
+}
+
+#PUBG {
+  border-style: dashed;
+  border-color: #ff7b0f;
+  background-color: rgba(252, 242, 166, 0.3);
+  margin: 6%;
+  padding: 2%;
+  position: static;
+}
+
+.pubgpic {
+   height: 300px;
+   width: 600px;
+}
+
+#Warframe {
+  border-style: dashed;
+  border-color: #728edb;
+  background-color: rgba(184, 194, 224, 0.3);
+  margin: 6%;
+  padding: 2%;
+  position: static;
+}
+
+.warframepic {
+  height: 300px;
+  width: 600px;
+}
+
+#RocketLeague {
+  border-style: dashed;
+  border-color: #e02a2a;
+  background-color: rgba(214, 81, 81, 0.3);
+  margin: 6%;
+  padding: 2%;
+  position: static;
+}
+
+.rocketleaguevid {
+  height: 300px;
+  width: 600px;
+}
+
+@media screen and (max-width: 500px){
+  .nav li{
+    float: none;
+    width: 100%;
+    font-size: small;
+  }
+  .nav li a{
+    padding: 3px 4px;
+  }
+}
