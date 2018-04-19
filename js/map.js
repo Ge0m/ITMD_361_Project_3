@@ -19,4 +19,27 @@ function initMap()
         position: google.maps.ControlPosition.RIGHT_CENTER
       }
     });
+
+    var contentString = 
+      '<h1>Saranda, Albania</h1>';
+
+    var infowindow = new google.maps.InfoWindow(
+    {
+      content: contentString
+    });
+
+    var marker = new google.maps.Marker(
+    {
+      position: {lat: 39.859212, lng: 20.0271},
+      map: map,
+      animation: google.maps.Animation.DROP,
+      title: 'Saranda, Albania'
+    });
+
+    marker.addListener('click', function() 
+    {
+      infowindow.open(map, marker);
+    });
 }
+
+google.maps.event.addDomListener(window, 'load', initMap);
