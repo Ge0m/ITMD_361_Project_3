@@ -190,3 +190,10 @@ footer {
     padding: 3px 4px;
   }
 }
+
+#map {
+  height: 500px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
